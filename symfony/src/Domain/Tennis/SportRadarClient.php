@@ -24,7 +24,7 @@ class SportRadarClient
     public function getSinglesRankings(): RankingsBaseClass
     {
         return $this->request(
-            '/tennis/trial/v3/fr/rankings.json',
+            '/tennis/trial/v3/en/rankings.json',
             RankingsBaseClass::class
         );
     }
