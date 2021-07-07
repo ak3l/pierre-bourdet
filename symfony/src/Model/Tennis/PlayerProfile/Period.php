@@ -2,11 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Model\Tennis\ExternalModel\PlayerProfile;
+namespace Model\Tennis\PlayerProfile;
 
-class Surface
+class Period
 {
-    public string $type;
+    public int $year = 0;
+
+    /** @var Surface[] */
+    public array $surfaces = [];
 
     public Statistics $statistics;
 

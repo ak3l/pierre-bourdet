@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Model\Tennis\ExternalModel\Rankings;
+namespace Model\Tennis\Rankings;
 
 class Ranking
 {

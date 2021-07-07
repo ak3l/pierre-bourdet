@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Model\Tennis\ExternalModel\PlayerProfile;
+namespace Model\Tennis\PlayerProfile;
 
 class Competition
 {

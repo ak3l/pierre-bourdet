@@ -20,10 +20,10 @@ class GetPlayerProfileController extends AbstractController
     #[Route(
         '/tennis/player-profile/{playerId}',
         name: 'tennis_get_player_profile',
-        requirements: ['playerId' => 'sr:competitor:\d+'],
+        requirements: ['playerId' => '\d+'],
         methods: [Request::METHOD_GET]
     )]
-    public function __invoke(string $playerId): JsonResponse
+    public function __invoke(int $playerId): JsonResponse
     {
         return $this->json($this->sportRadarClient->getPlayerProfile($playerId));
     }

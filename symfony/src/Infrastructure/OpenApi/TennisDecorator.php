@@ -11,8 +11,8 @@ use ApiPlatform\Core\OpenApi\Model\Operation;
 use ApiPlatform\Core\OpenApi\Model\Parameter;
 use ApiPlatform\Core\OpenApi\Model\PathItem;
 use ApiPlatform\Core\OpenApi\OpenApi;
-use Model\Tennis\ExternalModel\PlayerProfile\PlayerProfile;
-use Model\Tennis\ExternalModel\Rankings\Ranking;
+use Model\Tennis\PlayerProfile\PlayerProfile;
+use Model\Tennis\Rankings\Ranking;
 use Symfony\Component\HttpFoundation\Response;
 
 class TennisDecorator implements OpenApiFactoryInterface

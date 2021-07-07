@@ -6,7 +6,7 @@ namespace Domain\Tennis\Repository;
 
 use Domain\Tennis\SportRadarClient;
 use Model\Tennis\Exception\RankingNotFoundException;
-use Model\Tennis\ExternalModel\Rankings\Ranking;
+use Model\Tennis\Rankings\Ranking;
 
 class RankingsRepository
 {

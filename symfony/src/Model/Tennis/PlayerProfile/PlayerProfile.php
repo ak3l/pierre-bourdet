@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Model\Tennis\ExternalModel\PlayerProfile;
+namespace Model\Tennis\PlayerProfile;
 
-use Model\Tennis\ExternalModel\Rankings\CompetitorRanking;
+use Model\Tennis\Rankings\CompetitorRanking;
 
 class PlayerProfile
 {
