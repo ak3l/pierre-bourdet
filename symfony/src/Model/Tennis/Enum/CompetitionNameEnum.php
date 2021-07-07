@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Model\Enum;
+namespace Model\Tennis\Enum;
 
 class CompetitionNameEnum
 {

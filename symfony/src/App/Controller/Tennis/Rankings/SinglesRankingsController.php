@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Controller\Tennis\Rankings;
 
 use Domain\Tennis\Repository\RankingsRepository;
-use Model\Enum\CompetitionNameEnum;
+use Model\Tennis\Enum\CompetitionNameEnum;
 use Model\Tennis\Exception\RankingNotFoundException;
 use Model\Tennis\Rankings\Ranking;
 use Psr\Log\LoggerInterface;

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Model\User;
 
-use Model\Enum\LanguageEnum;
+use Model\Account\Enum\LanguageEnum;
 use Symfony\Component\Validator\Constraints as Assert;
 
 final class CreateUserDTO

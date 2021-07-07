@@ -7,8 +7,8 @@ namespace App\Controller\Account;
 use ApiPlatform\Core\Validator\ValidatorInterface;
 use App\Entity\User;
 use App\Repository\UserRepository;
+use Model\Account\Enum\LanguageEnum;
 use Model\Account\UpdateLanguageDTO;
-use Model\Enum\LanguageEnum;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
